@@ -36,7 +36,7 @@ import io.restassured.specification.ResponseSpecification;
 import com.test.constants.Endpoints;
 
 public class GitHubApi {
-	String extractedToken = "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";
+	String extractedToken = Endpoints.TOKEN;
 
 	@BeforeClass
 	public void init() {
